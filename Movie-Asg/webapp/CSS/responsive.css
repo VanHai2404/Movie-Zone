@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* all */
+
+	/* PC : width >=1024 */
+@media only screen and (min-width: 64em) {
+     /**
+   * MOVIE DETAIL
+   */
+ .detail-subtitle{color: red !important;}
+  .movie-detail { padding-bottom:100px; }
+
+  .movie-detail-content { max-width: 620px; }
+
+  /* .detail-title { --fs-1: 60px; } */
+
+ 
+    .movie-detail-content { max-width: 620px; }
+
+
+}
+@media(max-width:767.98px){ 
+    /* nhỏ hơn hoạc bằng 767 thì áp thuộc tinh dưới min thì ngược lại */
+    .navbar-brand img {
+        width: 43px;
+    }
+    .netflix-padding-left{
+        padding-left: 10px !important;
+    
+    }
+    .netflix-padding-right{
+        padding-right: 10px !important;
+        
+    }
+  
+    
+    .netflix-dropdown-box{
+        display: block;
+    }
+    .netflix-nav{
+        display: none;
+
+    }
+    .card-img-top{
+        height: 150px;
+    }
+  
+    .netflix-home-video .content img {
+        margin-top: 90px !important;
+        width: 200px;
+
+    }
+    button{
+        font-size: 10px !important;
+        width: max-content !important;
+        opacity: 0.8;
+    }
+    .card{
+        width: 150px;
+
+    }
+    .card-icon{
+        font-size: 17px !important;
+    }
+   
+    
+    .card{
+        width: 150px;
+    }
+    .margin-right{
+        margin-right: unset;
+    }
+    .card-icon{
+        font-size: 17px !important;
+    }
+    .card-body{
+        top: 80px !important;
+    }
+    .netflix-card-text{
+        font-size: 8px;
+    }
+    
+    .margin-title{
+        margin-top: 100px;
+    }
+    .margin-title2{
+        margin-top: 14px;
+    }
+    .copy-right{
+        
+          margin-left: 0px !important;
+    }
+    .table-title{
+        font-size: 12px;
+        margin-bottom: 10px;
+
+    }
+    
+    }
+    @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+	
+	
+	/* Thay đổi màu nền của modal */
+.modal-content {
+  background-color: #f8f9fa;
+}
+.modal {
+  display: none;
+}
+.alert-success + .modal,
+.alert-danger + .modal {
+  display: block;
+}
+/* Thay đổi màu chữ của alert box */
+.alert-success,
+.alert-danger {
+  color: #155724;
+}
+
+
+
+
+
+
+   
+   

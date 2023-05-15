@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+#login {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.200),
+		rgba(0, 0, 0, 0.210)), url(../images/logo/login.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.login-top {
+	/* width: 100vw;*/
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.login-top img {
+	width: 150px;
+}
+
+.login-box {
+	background-color: #000000e4;
+	width: 400px;
+	height: 580px;
+	border-radius: 5px;
+	padding: 50px;
+}
+
+.email-text {
+	font-size: 13px;
+}
+
+.form-control {
+	box-shadow: none !important;
+}
+/* sign up */
+#sign-up {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.418),
+		rgba(0, 0, 0, 0.478)), url(../images/logo/login-bg.jpeg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.form-changepassword {
+	border: 3px solid #463c3c3d;
+	background-color: #000000e4;
+	height: 27em;
+	width: 35em;
+	padding: 20px 10px;
+	margin: auto;
+	/* căn giữa card */
+	border-radius: 10px;
+	/* bo tròn góc card */
+	box-shadow: 0px 0px 10px #999;
+	/* đổ bóng cho card */
+	overflow: hidden;
+	/* ẩn phần overflow của form */
+	top: 50px;
+}
+
+.form-sign-up {
+	border: 3px solid #463c3c3d;
+	background-color: #000000e4;
+	height: 37em;
+	width: 35em;
+	padding: 20px 10px;
+	margin: auto;
+	/* căn giữa card */
+	border-radius: 10px;
+	/* bo tròn góc card */
+	box-shadow: 0px 0px 10px;
+	/* đổ bóng cho card */
+	overflow: hidden;
+	/* ẩn phần overflow của form */
+	top: 50px;
+}
+
+.btn1 {
+	border-radius: 5px;
+	/* không bo tròn nút */
+	width: 100%;
+	/* chiếm toàn bộ chiều rộng */
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+	text-align: center;
+	/* căn giữa tiêu đề */
+	margin-bottom: 1.5rem;
+	/* khoảng cách giữa tiêu đề và form */
+	color: #bdbaba;
+}
+
+.form-label {
+	color: #cfc5c5;
+}
+
+.login-box {
+	background-color: #000000e4
+}
+
+input {
+	display: block;
+	background-color: #5a5353;
+}
+
+.login-top img {
+	width: 150px;
+}
+/* shase */
+#shase {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.418),
+		rgba(0, 0, 0, 0.478)), url(../images/logo/login-bg.jpeg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.card_shase {
+	border: 3px solid #463c3c3d;
+	background-color: #000000e4;
+	height: 32em;
+	width: 43em;
+	padding: 20px 10px;
+	margin: auto;
+	/* căn giữa card */
+	border-radius: 10px;
+	/* bo tròn góc card */
+	box-shadow: 0px 0px 10px #999;
+	/* đổ bóng cho card */
+	overflow: hidden;
+	/* ẩn phần overflow của form */
+	top: 50px;
+}
+
+.btn-shase {
+	border-radius: 5px;
+	/* không bo tròn nút */
+	width: 100%;
+	/* chiếm toàn bộ chiều rộng */
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-control:focus {
+	border-color: #007bff;
+	/* đổi màu border khi focus */
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+	/* tạo hiệu ứng focus */
+}
+
+/* đổi mật khẩu */
+.card_forPass {
+	margin: auto;
+	/* căn giữa card */
+	border-radius: 10px;
+	/* bo tròn góc card */
+	box-shadow: 0px 0px 10px #999;
+	/* đổ bóng cho card */
+	overflow: hidden;
+	/* ẩn phần overflow của form */
+	width: 30em;
+	height: 20em;
+	top: 50px;
+}
+
+/* edit-profile */
+#edit-profile {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.418),
+		rgba(0, 0, 0, 0.478)), url(../images/logo/login-bg.jpeg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.form-profile {
+	border: 3px solid #463c3c3d;
+	background-color: #000000e4;
+	height: 32em;
+	width: 43em;
+	padding: 20px 10px;
+	margin: auto;
+	/* căn giữa card */
+	border-radius: 10px;
+	/* bo tròn góc card */
+	box-shadow: 0px 0px 10px #999;
+	/* đổ bóng cho card */
+	overflow: hidden;
+	/* ẩn phần overflow của form */
+	top: 50px;
+}
